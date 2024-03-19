@@ -87,15 +87,18 @@ h1 {
   border: none;
   background: none;
   color: #c3ba78;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: color 0.2s;
-  padding: 0.5rem 0.25rem 0.25rem 0.25rem;
+  padding: 6px 2px;
   text-align: center;
+  border-radius: 5px;
 }
 
 #players button:hover {
   color: #f8ca31;
+  background-color: #282617;
+  transition: all 0.2s ease-in;
 }
 
 .player {
